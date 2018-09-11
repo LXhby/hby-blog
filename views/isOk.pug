@@ -1,0 +1,21 @@
+extends ./layout/layout
+
+block css
+    style.
+        h1.one{
+            margin-top: 60px;
+        }
+        h1.two{
+            margin-bottom: 700px;
+        }
+
+
+block contents
+    h1.one(style="text-align:center;color:red;")= status
+    h1.two(style="text-align:center;") 即将跳转
+
+block scripts
+    script.
+        setTimeout(function () {
+            location.href = "/";
+        },1000)

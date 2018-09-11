@@ -1,0 +1,52 @@
+@charset "UTF-8";
+header{
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 1;
+    width: 100%;
+    height: 60px;
+    background-color: #333;
+}
+#head{
+    height: 100%;
+    line-height: 60px;
+    color: #fff;
+}
+#head a{
+    color: #fff;
+    font-size: 18px;
+}
+#head h1{
+    font-size: 22px;
+}
+header .top-nav{
+    height: 100%;
+}
+.top-nav li{
+    float: left;
+    margin-left: 45px;
+}
+.top-nav li a,.bloguser li a{
+    display: block;
+    width: 100%;
+    height: 55px;
+    padding:0 5px;
+}
+.top-nav li a:hover,.bloguser li a:hover{
+    color: #ccc;
+    border-bottom:5px solid #f66;
+}
+.bloguser li{
+    float: left;
+    margin-left: 20px;
+}
+.show-child{
+    display: none;
+    background-color: #000;
+    text-align: center;
+    line-height: 55px;
+}
+.show-father:hover .show-child{
+    display: block;
+}

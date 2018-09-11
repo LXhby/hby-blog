@@ -1,0 +1,18 @@
+doctype html
+html
+    head
+        meta(charset="UTF-8")
+        title= title
+        link(rel="stylesheet", href="/css/head.css")
+        link(rel="stylesheet", href="/css/footer.css")
+        link(rel="stylesheet", href="/css/public.css")
+        link(rel="stylesheet", href="/layui/css/layui.css")
+        block css
+        script(src="/layui/layui.js")
+    body
+        include ./head
+        block contents
+        include ./footer
+        block scripts
+
+

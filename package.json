@@ -16,5 +16,18 @@
   "bugs": {
     "url": "https://github.com/LXhby/hby-blog/issues"
   },
-  "homepage": "https://github.com/LXhby/hby-blog#readme"
+  "homepage": "https://github.com/LXhby/hby-blog#readme",
+  "dependencies": {
+    "koa": "^2.5.2",
+    "koa-body": "^4.0.4",
+    "koa-compress": "^3.0.0",
+    "koa-logger": "^3.2.0",
+    "koa-multer": "^1.0.2",
+    "koa-router": "^7.4.0",
+    "koa-session": "^5.9.0",
+    "koa-static": "^5.0.0",
+    "koa-views": "^6.1.4",
+    "mongoose": "^5.2.12",
+    "pug": "^2.0.3"
+  }
 }
